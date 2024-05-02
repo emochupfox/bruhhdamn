@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e1da; /* Nude pink */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #bb877a; /* Darker pink */
+    color: #fff;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul.right-icons {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search, .cart, .profile {
+    cursor: pointer;
+}
+
+.white-icon {
+    color: #fff; /* White color for profile icon */
+}
+
+.greetings {
+    text-align: center;
+    padding: 20px;
+    background-color: #f3e2d6;
+    width: 97.3%;
+}
+
+.container1 {
+    background-color: #f3e2d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+}
+
+.box1 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.box1 img{
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transform: translate(-50%, -50%);
+    color:#f3e2d6;
+    padding: 10px; /* Optional: add padding */
+    font-size: 500%;
+}
+
+p{
+    color: #999;
+    font-size: 15px;
+    text-align: center;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    flex-basis: 25%; /* Set the initial size to 25% */
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px; /* Matches login/register page */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px; /* Matches login/register page */
+}
+
+.product h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #bb877a; /* Darker pink */
+}
+
+.product p {
+    margin: 5px 0;
+    color: #bb877a; /* Darker pink */
+}
+
+.product button {
+    background-color: #bb877a; /* Darker pink */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #bb877a; /* Darker pink on hover */
+}
+
+.center-text {
+    text-align: center;
+}
+
+.footer-columns {
+    display: flex;
+}
+
+.footer-column {
+    flex: 1;
+    padding-bottom: 50px;
+    border-top: 1px solid #ccc;
+    margin: 0px;
+    text-align: center;
+}
+
+footer p {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        font-size: 15px;
+        text-align: center;
+        line-height: 22px;
+        margin-bottom: 18px;
+        margin: 0;
+        width: 100%;
+        padding: 0%;
+}

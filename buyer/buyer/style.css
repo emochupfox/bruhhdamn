@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(245, 232, 232);
+    height: 5pc;
+    background-color: rgb(250, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(230, 11, 230);
+}
+main{
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-color: aliceblue;
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(146, 146, 247);
+    text-align: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+footer{
+    text-align: center;
+    color: violet;
+}
+div{
+    color: aliceblue;
+}
+input{
+    flex-direction: row;
+    justify-content: center;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}

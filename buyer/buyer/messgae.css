@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fde9e5; /* Nude Pink background */
+    margin: 0;
+    padding: 0;
+}
+
+.messenger-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.chat-box {
+    padding: 20px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.chat {
+    max-width: 70%;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.user {
+    background-color: #ffc0cb; /* Light Pink background for user */
+    align-self: flex-end;
+}
+
+.admin {
+    background-color: #f08080; /* Light Coral background for admin */
+    align-self: flex-start;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.input-box input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.input-box button {
+    padding: 10px 20px;
+    background-color: #ed9f82; /* Reddish-Pink button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-box button:hover {
+    background-color: #efa193; /* Lighter shade of Reddish-Pink button */
+}

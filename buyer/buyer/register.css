@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f3e2d6; /* Nude pink */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    color: #bb877a; /* Darker pink */
+}
+
+main form {
+    margin-top: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group h2 {
+    color: #bb877a; /* Darker pink */
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #bb877a; /* Darker pink */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-group input[type="submit"] {
+    background-color: #bb877a; /* Darker pink */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-group input[type="submit"]:hover {
+    background-color: #a96e62; /* Darker pink on hover */
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #bb877a; /* Darker pink */
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
